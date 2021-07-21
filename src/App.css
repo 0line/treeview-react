@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.bg-purple{
+  background-color: purple !important;
+}
+
+.btn-login{
+  background-color: #282c34 !important;
+  color:white !important;
+}
+
+.full-bg{
+  background-image: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2");
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-blend-mode: overlay;
 }

@@ -1,0 +1,32 @@
+.w-card{
+    width: 500px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.w-card-content{
+    width: 100% !important;    
+    box-shadow:none !important;
+    background: none !important;
+    margin-right: 0.5%;
+}
+
+.w-card-content:before{
+    background-color: transparent !important;
+}
+
+.panel-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.expandIcon{
+    order:0;
+}
+
+.MuiIconButton-edgeEnd{
+    margin-right:0 !important;
+}
+
+.MuiAccordionSummary-content{
+    order:1;
+}
